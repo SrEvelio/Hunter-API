@@ -1,0 +1,23 @@
+{
+  "name": "hunter-api",
+  "version": "1.0.0",
+  "description": "a package to easily interact with the HunterAPI ",
+  "main": "HunterAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrEvelio/Hunter-API.git"
+  },
+  "keywords": [
+    "HunterAPI",
+    "API"
+  ],
+  "author": "SrEvelio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrEvelio/Hunter-API/issues"
+  },
+  "homepage": "https://github.com/SrEvelio/Hunter-API#readme"
+}
