@@ -38,7 +38,7 @@ class HunterAPI {
 
         let data = await fetch(`${APIEndPoint}/translate?language=${lang}&text=${text}`);
         let res = await data.json();
-        return res.translation;
+        return res;
     }
 
     /**
