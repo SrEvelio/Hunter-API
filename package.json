@@ -1,7 +1,8 @@
 {
   "name": "hunter-api",
-  "version": "1.0.2",
-  "description": "a package to easily interact with the HunterAPI",
+  "version": "1.0.4",
+  "description": "A package to easily interact with the HunterAPI.",
+  "type": "module",
   "main": "HunterAPI.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,13 +14,17 @@
   "keywords": [
     "HunterAPI",
     "Weather",
-    "Blur",
     "Minecraft",
     "Translate",
     "Lyrics",
-    "Tweet",
     "Meme",
-    "PlayStore"
+    "PlayStore",
+    "Discord bot",
+    "Discord",
+    "Util",
+    "Utilities",
+    "Bot",
+    "Helpful"
   ],
   "author": "SrEvelio",
   "license": "ISC",
@@ -28,6 +33,6 @@
   },
   "homepage": "https://github.com/SrEvelio/Hunter-API#readme",
   "dependencies": {
-    "node-fetch": "^3.2.9"
+    "node-fetch": "^3.2.10"
   }
 }
