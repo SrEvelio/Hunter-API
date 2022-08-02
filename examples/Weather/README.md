@@ -2,14 +2,16 @@
 
 ```js
 const HunterAPI = require('hunter-api');
+const hunter = new HunterAPI();
 let Weather = HunterAPI.weather('<City>')
 ```
 #
 
 Discord.js
 ```js
-const HunterAPI = require('hunter-api');
 const { EmbedBuilder } = require('discord.js');
+const HunterAPI = require('hunter-api');
+const hunter = new HunterAPI();
 
 let Weather = HunterAPI.weather('New York')
 

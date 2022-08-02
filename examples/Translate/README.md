@@ -2,16 +2,18 @@
 
 ```js
 const HunterAPI = require('hunter-api');
-let Translate = HunterAPI.translate('<Language>', '<Text>');
+const hunter = new HunterAPI();
+let Translate = hunter.translate('<Language>', '<Text>');
 ```
 #
 
 Discord.js
 ```js
-const HunterAPI = require('hunter-api');
 const { EmbedBuilder } = require('discord.js');
+const HunterAPI = require('hunter-api');
+const hunter = new HunterAPI();
 
-await HunterAPI.translate("es", "Hello World").then((data) => {
+await hunter.translate("es", "Hello World").then((data) => {
     let embed = EmbedBuilder()
         .setColor("#00000")
         .setTitle(`Translation`)

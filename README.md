@@ -18,28 +18,32 @@ npm install hunter-api
 ##### Blur - Blur your image
 ```js
 const HunterAPI = require('hunter-api');
-let Image = await HunterAPI.blur('<Image Link>');
+const hunter = new HunterAPI();
+let Image = await hunter.blur('<Image Link>');
 ```
 #
 
 #### Lyrics - Get the lyrics of a song
 ```js
 const HunterAPI = require('hunter-api');
-let Lyrics = await HunterAPI.lyrics('<Song Name>');
+const hunter = new HunterAPI();
+let Lyrics = await hunter.lyrics('<Song Name>');
 ```
 #
 
 #### Translate - Translate a text
 ```js
 const HunterAPI = require('hunter-api');
-let text = await HunterAPI.translate('<lang>', '<Text>');
+const hunter = new HunterAPI();
+let text = await hunter.translate('<lang>', '<Text>');
 ```
 #
 
 #### Meme - Get a random meme
 ```js
 const HunterAPI = require('hunter-api');
-let Meme = await HunterAPI.meme();
+const hunter = new HunterAPI();
+let Meme = await hunter.meme();
 ```
 #
 
@@ -47,7 +51,8 @@ let Meme = await HunterAPI.meme();
 
 ```js
 const HunterAPI = require('hunter-api');
-let Weather = HunterAPI.weather('<City>')
+const hunter = new HunterAPI();
+let Weather = hunter.weather('<City>')
 ```
 #
 

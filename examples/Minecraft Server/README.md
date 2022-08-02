@@ -2,16 +2,18 @@
 
 ```js
 const HunterAPI = require('hunter-api');
-let Minecraft = HunterAPI.mcserver('<Server IP>');
+const hunter = new HunterAPI();
+let Minecraft = hunter.mcserver('<Server IP>');
 ```
 #
 
 Discord.js
 ```js
-const HunterAPI = require('hunter-api');
 const { EmbedBuilder } = require('discord.js');
+const HunterAPI = require('hunter-api');
+const hunter = new HunterAPI();
 
-await HunterAPI.mcserver("hypixe.net").then((data) => {
+await hunter.mcserver("hypixe.net").then((data) => {
     if (data.success) {
         let embed = EmbedBuilder()
             .setColor("#00000")

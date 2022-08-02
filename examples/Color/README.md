@@ -2,16 +2,18 @@
 #### Color - Get data from a color
 ```js
 const HunterAPI = require('hunter-api');
-let data = await HunterAPI.color('Hex color without #');
+const hunter = new HunterAPI();
+let data = await hunter.color('Hex color without #');
 ```
 #
 
 ##### Discord.js
 ```js
-const HunterAPI = require('hunter-api');
 const { EmbedBuilder } = require('discord.js');
+const HunterAPI = require('hunter-api');
+const hunter = new HunterAPI();
 
-let data = await HunterAPI.color("FF00FF")
+let data = await hunter.color("FF00FF")
 
 let embed = new EmbedBuilder()
     .setColor(data.hex)

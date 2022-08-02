@@ -1,9 +1,8 @@
 {
   "name": "hunter-api",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A package to easily interact with the HunterAPI.",
-  "type": "module",
-  "main": "HunterAPI.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,6 +32,6 @@
   },
   "homepage": "https://github.com/SrEvelio/Hunter-API#readme",
   "dependencies": {
-    "node-fetch": "^3.2.10"
+    "axios": "^0.27.2"
   }
 }

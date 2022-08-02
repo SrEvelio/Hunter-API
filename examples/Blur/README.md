@@ -2,16 +2,18 @@
 #### Blur - Blur your image
 ```js
 const HunterAPI = require('hunter-api');
-let Image = await HunterAPI.blur('<Image Link>');
+const hunter = new HunterAPI();
+let Image = await hunter.blur('<Image Link>');
 ```
 #
 
 ##### Discord.js
 ```js
-const HunterAPI = require('hunter-api');
 const { EmbedBuilder } = require('discord.js');
+const HunterAPI = require('hunter-api');
+const hunter = new HunterAPI();
 
-let Image = await HunterAPI.blur( message.author.displayAvatarURL({ format: "png", dynamic: false }) );
+let Image = await hunter.blur( message.author.displayAvatarURL({ format: "png", dynamic: false }) );
 
 let embed = new EmbedBuilder()
     .setColor("#00000")
